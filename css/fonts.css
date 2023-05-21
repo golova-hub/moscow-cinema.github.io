@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'FuturaFuturisLightC';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    src: url('../fonts/FuturaFuturisLightC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/FuturaFuturisLightC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/FuturaFuturisLightC.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/FuturaFuturisLightC.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/FuturaFuturisLightC.ttf') format('truetype') /* Safari, Android, iOS */
+}
+@font-face {
+    font-family: 'FuturaFuturisC';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    src: url('../fonts/FuturaFuturisC.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/FuturaFuturisC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/FuturaFuturisC.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/FuturaFuturisC.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/FuturaFuturisC.ttf') format('truetype') /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    src: url('../fonts/TrebuchetMS.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/TrebuchetMS.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/TrebuchetMS.ttf') format('truetype') /* Safari, Android, iOS */
+}
