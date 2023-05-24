@@ -179,16 +179,24 @@ hr {
   }
   .films-cover-item {
     text-align: center;
-    img {
-      height: 550px;
-      width: auto;
-      margin: auto;
+    .film-cover-wrap {
+      position: relative;
+      height: 460px;
+      width: 316px;
+      margin: 0 10px;
+      img {
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+      }
     }
   }
   .films-cover-item.slick-current.slick-active.slick-center {
-    img {
-      height: 680px;
-      width: auto;
+    .film-cover-wrap {
+      height: 524px;
+      width: 360px;
     }
   }
  }

@@ -177,14 +177,22 @@ hr {
 .slider-films .films-cover-item {
   text-align: center;
 }
-.slider-films .films-cover-item img {
-  height: 550px;
-  width: auto;
-  margin: auto;
+.slider-films .films-cover-item .film-cover-wrap {
+  position: relative;
+  height: 460px;
+  width: 316px;
+  margin: 0 10px;
 }
-.slider-films .films-cover-item.slick-current.slick-active.slick-center img {
-  height: 680px;
-  width: auto;
+.slider-films .films-cover-item .film-cover-wrap img {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+.slider-films .films-cover-item.slick-current.slick-active.slick-center .film-cover-wrap {
+  height: 524px;
+  width: 360px;
 }
 
 .slick-dotted.slick-slider {
@@ -485,13 +493,6 @@ hr {
   .btn {
     min-width: initial;
     padding: 15px 26px;
-  }
-  .slider-films .films-cover-item img {
-    height: 520px;
-  }
-  .slider-films .films-cover-item.slick-current.slick-active.slick-center img {
-    height: 600px;
-    width: auto;
   }
   .restaurant .rest-photo .rest-img-wrap {
     height: 511px;
