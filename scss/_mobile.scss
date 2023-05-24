@@ -1,13 +1,59 @@
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
+  .btn {
+    min-width: 274px;
+  }
 
+}
+@media screen and (max-width: 1919px) {
+
+  .brands .d-flex img {
+    max-height: 44px;
+  }
+  header .container .main-screen-content {
+    max-width: 47%;
+    min-width: 47%;
+    width: 47%;
+  }
+  .btn {
+    min-width: initial;
+    padding: 15px 26px;
+  }
+  .slider-films {
+    .films-cover-item img {
+      height: 520px;
+    }
+    .films-cover-item.slick-current.slick-active.slick-center {
+      img {
+        height: 600px;
+        width: auto;
+      }
+    }
+  }
+  .restaurant {
+    .rest-photo .rest-img-wrap {
+      height: 511px;
+    }
+    .rest-text {
+      padding: 32px;
+    }
+  }
+  .pattern-bg {
+    h2 {
+      max-width: 56%;
+    }
+    p {
+      max-width: 64%;
+    }
+  }
 }
 @media screen and (max-width: 1440px) {
-
+  .benefit {
+    max-width: 30%;
+    min-width: 30%;
+    width: 30%;
+  }
 }
 @media screen and (max-width: 1366px) {
-
-}
-@media screen and (max-width: 768px) {
 
 }
 @media screen and (max-width: 360px) {

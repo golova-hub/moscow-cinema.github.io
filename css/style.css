@@ -27,9 +27,22 @@ h1, h2 {
   line-height: 40px;
   text-transform: uppercase;
   color: #BE9B46;
+  margin-bottom: 20px;
 }
 
-p {
+a {
+  text-decoration: none;
+  color: #BE9B46;
+  transition: 0.3s;
+  position: relative;
+  display: inline;
+}
+
+ul {
+  margin-left: 1.1rem;
+}
+
+p, ul li {
   color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
@@ -38,8 +51,39 @@ p {
   margin-bottom: 20px;
 }
 
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.p-50 {
+  padding: 50px;
+}
+
 header {
   padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 100px;
+}
+header .container {
+  background: linear-gradient(123.62deg, #21212B 30.03%, #111215 100%);
+  position: relative;
+  overflow: hidden;
+}
+header .container .main-screen-content {
+  max-width: 46%;
+  min-width: 46%;
+  width: 46%;
+  z-index: 10;
+}
+header .container .main-screen-content p {
+  margin-bottom: 60px;
+}
+header .container img#cards-img {
+  position: relative;
+  z-index: 0;
+  right: 0;
+  top: 0;
 }
 
 main {
@@ -72,8 +116,403 @@ section {
   margin-left: auto;
   margin-right: auto;
   max-width: 1890px;
+  width: 100%;
+}
+.container.bg-greyblue {
+  border-radius: 4px;
+  overflow: hidden;
 }
 
+.btn {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 15px 42px;
+  font-family: "FuturaFuturisC", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: lowercase;
+  color: #191A1F;
+  text-decoration: none;
+  min-width: initial;
+  justify-content: center;
+}
+.btn span {
+  margin-left: 20px;
+  white-space: nowrap;
+}
+.btn.btn-primary {
+  background-color: #BE9B46;
+  border: 1px solid #BE9B46;
+}
+.btn.btn-stroke {
+  background-color: transparent;
+  border: 1px solid #BE9B46;
+  color: #BE9B46;
+}
+
+.btn-group-main .btn {
+  margin-right: 22px;
+}
+.btn-group-main .btn:last-child {
+  margin-right: 0;
+}
+
+hr {
+  border-color: #BE9B46;
+  margin-bottom: 46px;
+}
+
+.slider-container {
+  max-width: 50%;
+  min-width: 50%;
+  width: 50%;
+}
+
+.slider-films .slick-track {
+  display: flex;
+  align-items: center;
+}
+.slider-films .films-cover-item {
+  text-align: center;
+}
+.slider-films .films-cover-item img {
+  height: 550px;
+  width: auto;
+  margin: auto;
+}
+.slider-films .films-cover-item.slick-current.slick-active.slick-center img {
+  height: 680px;
+  width: auto;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 80px;
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+
+.text-50 {
+  width: 70%;
+  margin: auto;
+}
+
+.bg-greyblue {
+  background-color: #21212B;
+}
+
+.benefit {
+  max-width: 420px;
+  min-width: 420px;
+  width: 420px;
+  text-align: center;
+  border-right: 1px solid #BE9B46;
+  padding: 20px 40px;
+}
+.benefit:last-child {
+  border-right: none;
+}
+.benefit img {
+  margin: 0 auto 30px auto;
+}
+.benefit p {
+  margin-bottom: 0;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mb-100 {
+  margin-bottom: 100px;
+}
+
+.events h2 {
+  max-width: 33%;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.events h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100px;
+  background-color: #BE9B46;
+  margin: 30px auto 50px;
+}
+
+.slider-events .slick-track {
+  display: flex;
+  height: 650px;
+}
+.slider-events .event-item {
+  text-align: center;
+}
+.slider-events .event-item .event-img-description {
+  font-family: "FuturaFuturisLightC", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.slider-events .event-item .event-img-wrap {
+  position: relative;
+  width: 730px;
+  height: 480px;
+  margin: 0 10px;
+}
+.slider-events .event-item .event-img-wrap img {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+}
+.slider-events .event-item.slick-current.slick-active.slick-center .event-img-wrap {
+  width: 900px;
+  height: 600px;
+}
+
+.brands h2 {
+  font-size: 24px;
+  line-height: 26px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.brands h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100px;
+  background-color: #BE9B46;
+  margin: 30px auto 50px;
+}
+.brands .d-flex img {
+  margin: 0 35px;
+  max-height: 58px;
+}
+
+.container.bg-greyblue .text-50 {
+  margin-left: 0;
+  width: 80%;
+}
+
+.restaurant {
+  display: flex;
+  align-items: center;
+}
+.restaurant .rest-photo {
+  max-width: 25%;
+  min-width: 25%;
+  width: 25%;
+}
+.restaurant .rest-photo .rest-img-wrap {
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  height: 690px;
+}
+.restaurant .rest-photo .rest-img-wrap img {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.restaurant .rest-text {
+  flex-grow: 1;
+  text-align: center;
+  padding: 50px 150px;
+}
+.restaurant .rest-text h2 {
+  position: relative;
+  max-width: 85%;
+  margin: auto;
+}
+.restaurant .rest-text h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100px;
+  background-color: #BE9B46;
+  margin: 30px auto 50px;
+}
+.restaurant .rest-text p {
+  max-width: 73%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 316px;
+  gap: 15px;
+}
+
+.img-wrap {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.img-wrap img {
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.interior-photo {
+  height: 460px;
+  margin-bottom: 80px;
+}
+
+.pattern-bg {
+  background-image: url("../images/pattern_bg.png");
+  overflow: hidden;
+  text-align: center;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.pattern-bg h2 {
+  max-width: 45%;
+  margin: auto;
+}
+.pattern-bg h2:after {
+  content: "";
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100px;
+  background-color: #BE9B46;
+  margin: 30px auto 50px;
+}
+.pattern-bg p {
+  font-family: "FuturaFuturisLightC", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 50%;
+  margin: 0 auto 80px auto;
+}
+
+.contacts {
+  display: flex;
+  align-items: start;
+  margin-top: 50px;
+  margin-bottom: 56px;
+}
+.contacts .contacts-group {
+  flex-grow: 1;
+  display: flex;
+  align-items: start;
+}
+.contacts .contacts-group .contacts-item {
+  max-width: 50%;
+  min-width: 50%;
+  width: 50%;
+  text-align: center;
+}
+.contacts .contacts-group .contacts-item a {
+  font-family: "FuturaFuturisLightC", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #BE9B46;
+  margin-bottom: 20px;
+  display: inline;
+}
+.contacts .contacts-group .contacts-item p {
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 80%;
+  margin: auto;
+}
+.contacts .contacts-links {
+  max-width: 33%;
+  min-width: 33%;
+  width: 33%;
+  text-align: center;
+}
+.contacts .contacts-links p {
+  color: rgba(255, 255, 255, 0.5);
+  max-width: 60%;
+  margin: auto;
+}
+
+.contact-icon-wrap {
+  height: 48px;
+  width: 48px;
+  max-width: 48px;
+  min-width: 48px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #BE9B46;
+  margin: 0 4px 20px 4px;
+}
+
+@media screen and (min-width: 1920px) {
+  .btn {
+    min-width: 274px;
+  }
+}
+@media screen and (max-width: 1919px) {
+  .brands .d-flex img {
+    max-height: 44px;
+  }
+  header .container .main-screen-content {
+    max-width: 47%;
+    min-width: 47%;
+    width: 47%;
+  }
+  .btn {
+    min-width: initial;
+    padding: 15px 26px;
+  }
+  .slider-films .films-cover-item img {
+    height: 520px;
+  }
+  .slider-films .films-cover-item.slick-current.slick-active.slick-center img {
+    height: 600px;
+    width: auto;
+  }
+  .restaurant .rest-photo .rest-img-wrap {
+    height: 511px;
+  }
+  .restaurant .rest-text {
+    padding: 32px;
+  }
+  .pattern-bg h2 {
+    max-width: 56%;
+  }
+  .pattern-bg p {
+    max-width: 64%;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .benefit {
+    max-width: 30%;
+    min-width: 30%;
+    width: 30%;
+  }
+}
 @media screen and (max-width: 360px) {
   section {
     padding: 10px;
