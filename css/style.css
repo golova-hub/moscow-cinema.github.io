@@ -14,9 +14,6 @@ html, body {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -67,6 +64,7 @@ header {
   border-radius: 4px;
   margin-bottom: 100px;
   position: relative;
+  z-index: 0;
 }
 header .container {
   background: linear-gradient(123.62deg, #21212B 30.03%, #111215 100%);
@@ -93,11 +91,12 @@ header .container .btn-group-main {
   overflow-y: auto;
   -webkit-perspective: 300px;
   perspective: 300px;
+  position: relative;
 }
 
 .parallax__group {
   position: absolute;
-  z-index: 2;
+  z-index: 100;
   width: 50%;
   right: 15px;
   top: 0;
@@ -122,38 +121,34 @@ header .container .btn-group-main {
 }
 
 .parallax__layer--img1 {
-  -webkit-transform: translateZ(-20px);
-  transform: translateZ(-20px);
-  max-width: 54%;
-  z-index: 5;
-  top: 9%;
+  -webkit-transform: translateZ(80px);
+  transform: translateZ(80px);
+  max-width: 33%;
+  top: 26%;
   left: 3%;
 }
 .parallax__layer--img2 {
-  -webkit-transform: translateZ(-70px) scale(1);
-  transform: translateZ(-70px) scale(1);
-  max-width: 68%;
-  z-index: 4;
-  top: 30%;
-  left: 30%;
+  -webkit-transform: translateZ(30px) scale(1.2);
+  transform: translateZ(30px) scale(1.2);
+  max-width: 38%;
+  top: 45%;
+  left: 20%;
 }
 
 .parallax__layer--img3 {
-  -webkit-transform: translateZ(0px) scale(1);
-  transform: translateZ(0px) scale(1);
-  max-width: 39%;
-  z-index: 3;
-  top: 10%;
-  left: 47%;
+  -webkit-transform: translateZ(20px) scale(1);
+  transform: translateZ(20px) scale(1);
+  max-width: 30%;
+  top: 19%;
+  left: 39%;
 }
 
 .parallax__layer--img4 {
-  -webkit-transform: translateZ(-20px) scale(1);
-  transform: translateZ(-20px) scale(1);
-  max-width: 42%;
-  z-index: 3;
-  top: 47%;
-  left: 68%;
+  -webkit-transform: translateZ(40px) scale(1);
+  transform: translateZ(40px) scale(1);
+  max-width: 21%;
+  top: 52%;
+  left: 49%;
 }
 .parallax__layer--img4 .parallax-img-wrap {
   right: -70%;
@@ -710,13 +705,13 @@ a:hover {
   }
   .parallax__layer--img1 {
     max-width: 64%;
-    z-index: 5;
+    z-index: 205;
     top: 6%;
     left: -9%;
   }
   .parallax__layer--img2 {
     max-width: 81%;
-    z-index: 4;
+    z-index: 204;
     top: 16%;
     left: 10%;
   }
@@ -908,13 +903,13 @@ a:hover {
   }
   .parallax__group .parallax__layer--img1 {
     max-width: 55%;
-    z-index: 5;
+    z-index: 110;
     top: 6%;
     left: 6%;
   }
   .parallax__group .parallax__layer--img2 {
     max-width: 68%;
-    z-index: 4;
+    z-index: 109;
     top: 16%;
     left: 14%;
   }
