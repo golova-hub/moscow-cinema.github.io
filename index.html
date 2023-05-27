@@ -7,18 +7,9 @@
 
     <meta name="robots" content="noindex, nofollow" />
 
-<!--    <link rel="apple-touch-icon-precomposed" type="image/png" href="/fav/apple-touch-icon-144x144-precomposed.png" sizes="144x144" />-->
-<!--    <link rel="apple-touch-icon-precomposed" type="image/png" href="/fav/apple-touch-icon-114x114-precomposed.png" sizes="114x114" />-->
-<!--    <link rel="apple-touch-icon-precomposed" type="image/png" href="/fav/apple-touch-icon-72x72-precomposed.png" sizes="72x72" />-->
-<!--    <link rel="apple-touch-icon-precomposed" type="image/png" href="/fav/apple-touch-icon-precomposed.png" />-->
-<!--    <link rel="shortcut icon" type="image/x-icon" href="/fav/favicon.ico" />-->
-
-<!--    <link rel="preload" href="css/fonts.css" as="font"  />-->
-<!--    <link rel="stylesheet" href="css/fonts.css" />-->
-<!--    <link rel="preload" href="css/style.css" as="style" />-->
-
     <link rel="stylesheet" href="slick/slick.css" />
     <link rel="stylesheet" href="slick/slick-theme.css" />
+    <link href="splide/dist/css/splide.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
 
 
@@ -26,14 +17,39 @@
     <title>Кинотеатр Москва</title>
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="p-50">
-            <img src="images/logo_mono_strokes.svg" alt="Москва Кинотеатр">
-            <div class="d-flex">
-                <div class="main-screen-content">
-                    <h1>Кинотеатр для тех, кто ценит качество, высокий уровень сервиса и следит за&nbsp;новинками мирового кинопроката</h1>
-                    <p>Мы работаем по клубной системе, что&nbsp;гарантирует нашим гостям максимальный комфорт и приватность</p>
+<div class="parallax">
+    <div class="parallax__group">
+        <div class="parallax__layer parallax__layer--img4">
+            <div class="parallax-img-wrap">
+                <img   src="images/cards_4.png" alt="Клубная карта Москва Кинотеатр">
+            </div>
+        </div>
+        <div class="parallax__layer parallax__layer--img1">
+            <div class="parallax-img-wrap">
+                <img  src="images/cards_1.png" alt="Клубная карта Москва Кинотеатр">
+            </div>
+        </div>
+        <div class="parallax__layer parallax__layer--img2">
+            <div class="parallax-img-wrap">
+                <img   src="images/cards_2.png" alt="Клубная карта Москва Кинотеатр">
+            </div>
+        </div>
+        <div class="parallax__layer parallax__layer--img3">
+            <div class="parallax-img-wrap">
+                <img   src="images/cards_3.png" alt="Клубная карта Москва Кинотеатр">
+            </div>
+        </div>
+
+    </div>
+    <header>
+        <div class="container">
+            <div class="p-50">
+                <img src="images/logo_mono_strokes.svg" alt="Москва Кинотеатр">
+                <div class="main-content">
+                    <div class="main-screen-content">
+                        <h1>Кинотеатр для тех, кто ценит качество, высокий уровень сервиса и следит за&nbsp;новинками мирового кинопроката</h1>
+                        <p>Мы работаем по клубной системе, что&nbsp;гарантирует нашим гостям максимальный комфорт и приватность</p>
+                    </div>
                     <div class="btn-group-main">
                         <a href="#" class="btn btn-primary">
                             <img src="images/icon_card.svg" alt="Оформить карту">
@@ -41,380 +57,308 @@
 
                         </a>
                         <a href="#" class="btn btn-stroke">
-                            <img src="images/icon_question.svg" alt="Задать вопрос">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"><path fill="currentColor" d="M13 .2C5.931.2.2 5.931.2 13c0 2.402.674 4.64 1.825 6.56L.315 25.8l6.372-1.673A12.732 12.732 0 0 0 13 25.8c7.069 0 12.8-5.731 12.8-12.8C25.8 5.931 20.069.2 13 .2ZM8.619 7.03c.208 0 .421-.002.606.008.228.005.477.022.715.548.282.625.898 2.193.977 2.352.079.159.135.346.025.554-.105.213-.16.342-.313.531-.159.184-.333.411-.477.55-.159.159-.323.333-.14.65.184.317.821 1.355 1.763 2.194 1.21 1.082 2.232 1.414 2.55 1.573.318.159.502.134.685-.08.19-.207.793-.921 1.007-1.239.208-.318.42-.263.708-.158.292.104 1.85.872 2.169 1.03.318.16.526.239.606.368.082.133.082.768-.181 1.508-.264.74-1.557 1.454-2.138 1.504-.585.055-1.132.263-3.806-.79-3.226-1.27-5.26-4.574-5.419-4.787-.159-.208-1.291-1.718-1.291-3.275 0-1.563.819-2.328 1.106-2.646.292-.318.634-.396.848-.396Z"/></svg>
                             <span>Задать вопрос</span>
                         </a>
                     </div>
-
-                </div>
-                <div>
-                    <img id="cards-img" src="images/cards.png" alt="Клубная карта Москва Кинотеатр">
                 </div>
             </div>
         </div>
-
-    </div>
-</header>
-<main>
-    <section class="mb-100">
-        <div class="container">
-            <div class="d-flex">
-                <div class="slider-container">
-                    <div class="slider-films">
-                        <div class="films-cover-item">
-                            <div class="film-cover-wrap">
-                                <img src="images/cover_1.jpg" alt="Новинки мирового кинематографа" >
-                            </div>
-                        </div>
-                        <div class="films-cover-item">
-                            <div class="film-cover-wrap">
-                                 <img src="images/cover_2.jpg" alt="Новинки мирового кинематографа" >
-                            </div>
-                        </div>
-                        <div class="films-cover-item">
-                            <div class="film-cover-wrap">
-                                <img src="images/cover_3.jpg" alt="Новинки мирового кинематографа" >
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div>
-                    <div class="text-50">
-                        <h2>Только для держателей клубных карт кинотеатра «Москва»:</h2>
-                        <hr>
-                        <p>Специальные показы новинок мирового кинематографа;</p>
-                        <p>доступ к широкой фильмотеке лент, вышедших из&nbsp;проката;</p>
-                        <p>проведение корпоративных и&nbsp;частных мероприятий.</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section class="mb-100">
-        <div class="container bg-greyblue">
-            <div class="p-50">
-                <div class="d-flex justify-center">
-                    <div class="benefit">
-                        <img src="images/icon_chair.svg" alt="">
-                        <p>10 кресельных<br>и&nbsp;7&nbsp;диванных залов</p>
-                    </div>
-                    <div class="divider-v"></div>
-                    <div class="benefit">
-                        <img src="images/icon_sport.svg" alt="">
-                        <p>Возможность просмотра спортивных трансляций</p>
-                    </div>
-                    <div class="divider-v"></div>
-                    <div class="benefit">
-                        <img src="images/icon_ps.svg" alt="">
-                        <p>Игры в&nbsp;PlayStation на&nbsp;большом экране</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="events mb-100">
-        <div class="container">
-            <h2>Приглашение на&nbsp;самые яркие события и&nbsp;премьеры</h2>
-            <div class="slider-events">
-                <div class="event-item">
-                    <div class="event-img-wrap">
-                        <img src="images/event_1.jpg" alt="События и премьеры" >
-                    </div>
-                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
-                </div>
-                <div class="event-item">
-                    <div class="event-img-wrap">
-                        <img src="images/event_2.jpg" alt="События и премьеры" >
-                    </div>
-                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
-                </div>
-                <div class="event-item">
-                    <div class="event-img-wrap">
-                        <img src="images/event_3.jpg" alt="События и премьеры" >
-                    </div>
-                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
-                </div>
-                <div class="event-item">
-                    <div class="event-img-wrap">
-                        <img src="images/event_4.jpg" alt="События и премьеры" >
-                    </div>
-                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
-                </div>
-                <div class="event-item">
-                    <div class="event-img-wrap">
-                        <img src="images/event_5.jpg" alt="События и премьеры" >
-                    </div>
-                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
-                </div>
-                <div class="event-item">
-                    <div class="event-img-wrap">
-                        <img src="images/event_6.jpg" alt="События и премьеры" >
-                    </div>
-                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
-                </div>
-                <div class="event-item">
-                    <div class="event-img-wrap">
-                        <img src="images/event_7.jpg" alt="События и премьеры" >
-                    </div>
-                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
-                </div>
-            </div>
-
-        </div>
-    </section>
-    <section class="brands mb-100">
-        <div class="container bg-greyblue">
-            <div class="p-50">
-                <h2>На площадке кинотеатра «Москва» проводят мероприятия топовые бренды</h2>
-                <div class="d-flex justify-center">
-                    <img src="images/brand_logo_mercury.svg" alt="Мероприятия тововых брендов">
-                    <img src="images/brand_logo_cg.svg" alt="Мероприятия тововых брендов">
-                    <img src="images/brand_logo_goldenmile.svg" alt="Мероприятия тововых брендов">
-                    <img src="images/brand_logo_ararat.svg" alt="Мероприятия тововых брендов">
-                    <img src="images/brand_logo_amnesia.svg" alt="Мероприятия тововых брендов">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="mb-100">
-        <div class="container">
-            <div class="restaurant">
-                <div class="rest-photo photo-left">
-                    <div class="rest-img-wrap">
-                        <img src="images/rest_1.jpg" alt="Ресторан Москва">
-                    </div>
-                </div>
-                <div class="rest-text">
-                    <h2>Средиземноморская и&nbsp;современная японская кухня ресторана «Москва»</h2>
-                    <p>Возможность заказа блюд в&nbsp;кинозал</p>
-                    <p>10% скидка на ресторан по&nbsp;клубной карте</p>
-                    <p>30% скидка на все услуги кинокомплекса в&nbsp;день рождения</p>
-                </div>
-                <div class="rest-photo photo-right">
-                    <div class="rest-img-wrap">
-                        <img src="images/rest_2.jpg" alt="Ресторан Москва">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="mb-100">
-        <div class="container bg-greyblue">
-            <div class="p-50">
+    </header>
+    <main>
+        <section class="mb-100" id="films">
+            <div class="container">
                 <div class="d-flex">
+                    <div class="slider-container">
+                        <div class="splide" id="films-slider" style="margin-bottom: 50px;" role="group" aria-label="Splide Basic HTML Example">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide" data-splide-interval="3000">
+                                        <div class="films-cover-item">
+                                            <div class="film-cover-wrap">
+                                                <img src="images/cover_1.webp" alt="Новинки мирового кинематографа" >
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide is-active is-visible" data-splide-interval="3000">
+                                        <div class="films-cover-item">
+                                            <div class="film-cover-wrap">
+                                                <img src="images/cover_2.webp" alt="Новинки мирового кинематографа" >
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide" data-splide-interval="3000">
+                                        <div class="films-cover-item">
+                                            <div class="film-cover-wrap">
+                                                <img src="images/cover_3.webp" alt="Новинки мирового кинематографа" >
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <div>
                         <div class="text-50">
-                            <h2>Дополнительные услуги для&nbsp;владельцев клубных карт:</h2>
+                            <h2>Только для держателей клубных карт кинотеатра «Москва»:</h2>
                             <hr>
-                            <ul>
-                                <li>Просмотр спортивных трансляций;</li>
-                                <li>караоке и возможность поиграть в&nbsp;игровую приставку на&nbsp;большом экране;</li>
-                                <li>по выходным анимация и&nbsp;мастер-классы для&nbsp;детей;</li>
-                                <li>персональный консьерж, который возьмет на&nbsp;себя организацию досуга на&nbsp;территории киноклуба.</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="slider-container">
-                        <div class="services">
-                            <div class="img-wrap">
-                                <img src="images/service_1.jpg" alt="Дополнительные услуги кинотеатра Москва">
-                            </div>
-                            <div class="img-wrap">
-                                <img src="images/service_2.jpg" alt="Дополнительные услуги кинотеатра Москва">
-                            </div>
-                            <div class="img-wrap">
-                                <img src="images/service_3.jpg" alt="Дополнительные услуги кинотеатра Москва">
-                            </div>
-                            <div class="img-wrap">
-                                <img src="images/service_4.jpg" alt="Дополнительные услуги кинотеатра Москва">
-                            </div>
+                            <p>Специальные показы новинок мирового кинематографа;</p>
+                            <p>доступ к широкой фильмотеке лент, вышедших из&nbsp;проката;</p>
+                            <p>проведение корпоративных и&nbsp;частных мероприятий.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="container pattern-bg">
-            <div class="img-wrap interior-photo">
-                <img src="images/interior.jpg" alt="Кинотеатр Москва">
-            </div>
-            <h2>Кинотеатр "Москва" – оазис спокойствия в&nbsp;центре столичной суеты.</h2>
-            <p>Это настоящая альтернатива короткого путешествия премиального уровня без&nbsp;необходимости покидать столицу</p>
-            <div class="btn-group-main">
-                <a href="#" class="btn btn-primary">
-                    <img src="images/icon_card.svg" alt="Оформить карту">
-                    <span>Оформить карту кинотеатра «Москва»</span>
 
-                </a>
-                <a href="#" class="btn btn-stroke">
-                    <img src="images/icon_question.svg" alt="Задать вопрос">
-                    <span>Остались вопросы? Мы с радостью ответим</span>
-                </a>
             </div>
-
-        </div>
-    </section>
-    <section>
-        <div class="container">
-            <div class="contacts">
-                <div class="contacts-group">
-                    <div class="contacts-item">
-                        <a href="tel:+74956424141">+7 495 642-41-41</a>
-                        <p>Мы открыты ежедневно с&nbsp;12:00&nbsp;до&nbsp;03:00</p>
-                    </div>
-                    <div class="contacts-item">
-                        <a href="mailto:sales@cinema.moscow">sales@cinema.moscow</a>
-                        <p>Москва, Охотный Ряд, 2<br>4&nbsp;этаж торговой галереи Seasons</p>
-                    </div>
-                </div>
-                <div class="contacts-links">
+        </section>
+        <section class="mb-100">
+            <div class="container bg-greyblue">
+                <div class="p-50">
                     <div class="d-flex justify-center">
-                        <div class="contact-icon-wrap">
-                            <img src="images/icon_tg.svg" alt="Телеграм">
+                        <div class="benefit">
+                            <img src="images/icon_chair.svg" alt="">
+                            <p>10 кресельных<br>и&nbsp;7&nbsp;диванных залов</p>
                         </div>
-                        <div class="contact-icon-wrap">
-                            <img src="images/icon_wk.svg" alt="Вконтакте">
+                        <div class="divider-v"></div>
+                        <div class="benefit">
+                            <img src="images/icon_sport.svg" alt="">
+                            <p>Возможность просмотра спортивных трансляций</p>
                         </div>
-                        <div class="contact-icon-wrap">
-                            <img src="images/icon_yt.svg" alt="Ютьюб">
-                        </div>
-                        <div class="contact-icon-wrap">
-                            <img src="images/icon_trip.svg" alt="Трипэдвайзер">
+                        <div class="divider-v"></div>
+                        <div class="benefit">
+                            <img src="images/icon_ps.svg" alt="">
+                            <p>Игры в&nbsp;PlayStation на&nbsp;большом экране</p>
                         </div>
                     </div>
-                    <p>© 2023 Кинотеатр «Москва»</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="events mb-100">
+            <div class="container">
+                <h2>Приглашение на&nbsp;самые яркие события и&nbsp;премьеры</h2>
+                <div class="splide" id="events-slider" style="margin-bottom: 50px;" role="group" aria-label="Splide Basic HTML Example">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide" data-splide-interval="3000">
+                                <div class="event-item">
+                                    <div class="event-img-wrap">
+                                        <img src="images/event_1.jpg" alt="События и премьеры" >
+                                    </div>
+                                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide" data-splide-interval="3000">
+                                <div class="event-item">
+                                    <div class="event-img-wrap">
+                                        <img src="images/event_2.jpg" alt="События и премьеры" >
+                                    </div>
+                                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide" data-splide-interval="3000">
+                                <div class="event-item">
+                                    <div class="event-img-wrap">
+                                        <img src="images/event_3.jpg" alt="События и премьеры" >
+                                    </div>
+                                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide" data-splide-interval="3000">
+                                <div class="event-item">
+                                    <div class="event-img-wrap">
+                                        <img src="images/event_4.jpg" alt="События и премьеры" >
+                                    </div>
+                                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide" data-splide-interval="3000">
+                                <div class="event-item">
+                                    <div class="event-img-wrap">
+                                        <img src="images/event_5.jpg" alt="События и премьеры" >
+                                    </div>
+                                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide" data-splide-interval="3000">
+                                <div class="event-item">
+                                    <div class="event-img-wrap">
+                                        <img src="images/event_6.jpg" alt="События и премьеры" >
+                                    </div>
+                                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
+                                </div>
+                            </li>
+                            <li class="splide__slide" data-splide-interval="3000">
+                                <div class="event-item">
+                                    <div class="event-img-wrap">
+                                        <img src="images/event_7.jpg" alt="События и премьеры" >
+                                    </div>
+                                    <p class="event-img-description">Премьера фильма «Нюрнберг»</p>
+                                </div>
+                            </li>
 
-</main>
-<footer>
-<p>кинотеатр Для тех, кто ценит качество во&nbsp;всех&nbsp;проявлениях</p>
-</footer>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brands mb-100">
+            <div class="container bg-greyblue">
+                <div class="p-50">
+                    <h2>На площадке кинотеатра «Москва» проводят мероприятия топовые бренды</h2>
+                    <div class="d-flex justify-center">
+                        <img src="images/brand_logo_mercury.svg" alt="Мероприятия тововых брендов">
+                        <img src="images/brand_logo_cg.svg" alt="Мероприятия тововых брендов">
+                        <img src="images/brand_logo_goldenmile.svg" alt="Мероприятия тововых брендов">
+                        <img src="images/brand_logo_ararat.svg" alt="Мероприятия тововых брендов">
+                        <img src="images/brand_logo_amnesia.svg" alt="Мероприятия тововых брендов">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mb-100">
+            <div class="container">
+                <div class="restaurant">
+                    <div class="rest-photo photo-left">
+                        <div class="rest-img-wrap">
+                            <img src="images/rest_1.jpg" alt="Ресторан Москва">
+                        </div>
+                    </div>
+                    <div class="rest-text">
+                        <h2>Средиземноморская и&nbsp;современная японская кухня ресторана «Москва»</h2>
+                        <p>Возможность заказа блюд в&nbsp;кинозал</p>
+                        <p>10% скидка на ресторан по&nbsp;клубной карте</p>
+                        <p>30% скидка на все услуги кинокомплекса в&nbsp;день рождения</p>
+                    </div>
+                    <div class="rest-photo photo-right">
+                        <div class="rest-img-wrap">
+                            <img src="images/rest_2.jpg" alt="Ресторан Москва">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mb-100" id="services">
+            <div class="container bg-greyblue">
+                <div class="p-50">
+                    <div class="d-flex">
+                        <div>
+                            <div class="text-50">
+                                <h2>Дополнительные услуги для&nbsp;владельцев клубных карт:</h2>
+                                <hr>
+                                <ul>
+                                    <li>Просмотр спортивных трансляций;</li>
+                                    <li>караоке и возможность поиграть в&nbsp;игровую приставку на&nbsp;большом экране;</li>
+                                    <li>по выходным анимация и&nbsp;мастер-классы для&nbsp;детей;</li>
+                                    <li>персональный консьерж, который возьмет на&nbsp;себя организацию досуга на&nbsp;территории киноклуба.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slider-container">
+                            <div class="services">
+                                <div class="img-wrap">
+                                    <img src="images/service_1.jpg" alt="Дополнительные услуги кинотеатра Москва">
+                                </div>
+                                <div class="img-wrap">
+                                    <img src="images/service_2.jpg" alt="Дополнительные услуги кинотеатра Москва">
+                                </div>
+                                <div class="img-wrap">
+                                    <img src="images/service_3.jpg" alt="Дополнительные услуги кинотеатра Москва">
+                                </div>
+                                <div class="img-wrap">
+                                    <img src="images/service_4.jpg" alt="Дополнительные услуги кинотеатра Москва">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="final">
+            <div class="container pattern-bg">
+                <div class="img-wrap interior-photo">
+                    <img src="images/interior.jpg" alt="Кинотеатр Москва">
+                </div>
+                <h2>Кинотеатр "Москва" – оазис спокойствия в&nbsp;центре столичной суеты.</h2>
+                <p>Это настоящая альтернатива короткого путешествия премиального уровня без&nbsp;необходимости покидать столицу</p>
+                <div class="btn-group-main">
+                    <a href="#" class="btn btn-primary">
+                        <img src="images/icon_card.svg" alt="Оформить карту">
+                        <span>Оформить карту кинотеатра «Москва»</span>
 
+                    </a>
+                    <a href="#" class="btn btn-stroke">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="none"><path fill="currentColor" d="M13 .2C5.931.2.2 5.931.2 13c0 2.402.674 4.64 1.825 6.56L.315 25.8l6.372-1.673A12.732 12.732 0 0 0 13 25.8c7.069 0 12.8-5.731 12.8-12.8C25.8 5.931 20.069.2 13 .2ZM8.619 7.03c.208 0 .421-.002.606.008.228.005.477.022.715.548.282.625.898 2.193.977 2.352.079.159.135.346.025.554-.105.213-.16.342-.313.531-.159.184-.333.411-.477.55-.159.159-.323.333-.14.65.184.317.821 1.355 1.763 2.194 1.21 1.082 2.232 1.414 2.55 1.573.318.159.502.134.685-.08.19-.207.793-.921 1.007-1.239.208-.318.42-.263.708-.158.292.104 1.85.872 2.169 1.03.318.16.526.239.606.368.082.133.082.768-.181 1.508-.264.74-1.557 1.454-2.138 1.504-.585.055-1.132.263-3.806-.79-3.226-1.27-5.26-4.574-5.419-4.787-.159-.208-1.291-1.718-1.291-3.275 0-1.563.819-2.328 1.106-2.646.292-.318.634-.396.848-.396Z"/></svg>
+                        <span>Остались вопросы? Мы с радостью ответим</span>
+                    </a>
+                </div>
 
-<script src="js/jquery.min.js"></script>
-<script src="slick/slick.min.js"></script>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="contacts">
+                    <div class="contacts-group">
+                        <div class="contacts-item">
+                            <a href="tel:+74956424141">+7 495 642-41-41</a>
+                            <p>Мы открыты ежедневно с&nbsp;12:00&nbsp;до&nbsp;03:00</p>
+                        </div>
+                        <div class="contacts-item">
+                            <a href="mailto:sales@cinema.moscow">sales@cinema.moscow</a>
+                            <p>Москва, Охотный Ряд, 2<br>4&nbsp;этаж торговой галереи Seasons</p>
+                        </div>
+                    </div>
+                    <div class="contacts-links">
+                        <div class="d-flex justify-center">
+                            <a href="#" class="contact-icon-wrap">
+                                <img src="images/icon_tg.svg" alt="Телеграм">
+                            </a>
+                            <a href="#" class="contact-icon-wrap">
+                                <img src="images/icon_wk.svg" alt="Вконтакте">
+                            </a>
+                            <a href="#" class="contact-icon-wrap">
+                                <img src="images/icon_yt.svg" alt="Ютьюб">
+                            </a>
+                            <a href="#" class="contact-icon-wrap">
+                                <img src="images/icon_trip.svg" alt="Трипэдвайзер">
+                            </a>
+                        </div>
+
+                        <p>© 2023 Кинотеатр «Москва»</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+    <p>кинотеатр Для тех, кто ценит качество во&nbsp;всех&nbsp;проявлениях</p>
+    </footer>
+</div>
+<!--подключение и инициализация слайдера-->
+<script src="splide/dist/js/splide.min.js"></script>
 <script>
-    $(document).ready(function(){
-        $('.slider-films').slick({
-            centerMode: true,
-            slidesToShow: 3,
-            autoplay: true,
+    document.addEventListener( 'DOMContentLoaded', function() {
+        var splideFilms = new Splide( '#films-slider', {
+            type   : 'loop',
+            padding: '1rem',
+            autoplay: 'playing',
+            focus    : 'center',
+            autoWidth: true,
             arrows: false,
-            dots: true,
-            infinite: true,
-            mobileFirst: true,
-            variableWidth: true,
-            cssEase: 'linear',
-            responsive: [
-                {
-                    breakpoint: 1920,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '260px',
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 1440,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '150px',
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 1366,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '150px',
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '220px',
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 360,
-                    settings: {
-                        centerMode: true,
-                        centerPadding: '20px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-        $('.slider-events').slick({
-            centerMode: true,
-            slidesToShow: 1,
-            autoplay: true,
-            arrows: false,
-            dots: true,
-            infinite: true,
-            mobileFirst: true,
-            variableWidth: true,
-            cssEase: 'linear',
-            responsive: [
-                {
-                    breakpoint: 1920,
-                    settings: {
-                        centerPadding: '500px',
-                    }
-                },
-                {
-                    breakpoint: 1440,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '150px',
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 1366,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '150px',
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '220px',
-                        slidesToShow: 1
-                    }
-                },
-                {
-                    breakpoint: 360,
-                    settings: {
-                        centerMode: true,
-                        centerPadding: '20px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
+        } );
+        splideFilms.mount();
 
-    });
+        var splideEvents = new Splide( '#events-slider', {
+            type   : 'loop',
+            padding: '1rem',
+            autoplay: 'pause',
+            focus    : 'center',
+            autoWidth: true,
+            arrows: false,
+        } );
+        splideEvents.mount();
+    } );
 </script>
-<script src="js/script.js"></script>
 </body>
 </html>
