@@ -225,10 +225,9 @@
           max-width: 55%;
         }
         ul {
-          columns: 2;
-          -webkit-columns: 2;
-          -moz-columns: 2;
+          max-width: 70%;
         }
+
       }
     }
     .services {
@@ -285,13 +284,20 @@
     max-width: 70%;
   }
 }
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 767px) {
+  #services .d-flex .text-50 ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    max-height: 160px;
+    max-width: 100%;
+  }
   #logo-moscow {
     width: 160px;
   }
   header {
     .container {
-      height: initial;
       .main-content {
         margin-top: 245px;
         .main-screen-content {

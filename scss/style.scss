@@ -28,9 +28,6 @@ html, body {
   background-color: $grey-dark;
 }
 body {
-  //display: flex;
-  //flex-direction: column;
-  //min-height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
 }
@@ -79,15 +76,8 @@ header {
     background: linear-gradient(123.62deg, #21212B 30.03%, #111215 100%);
     position: relative;
     overflow: hidden;
-    //transform-style:preserve-3d;
-    height: 700px;
-    //display: flex;
-    //align-items: center;
-    //.p-50 {
-    //  height: 100%;
-    //}
+    height: auto;
     .main-content {
-      //height: 600px;
       margin-top: 8%;
     }
     .main-screen-content {

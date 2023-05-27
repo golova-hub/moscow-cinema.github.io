@@ -70,7 +70,7 @@ header .container {
   background: linear-gradient(123.62deg, #21212B 30.03%, #111215 100%);
   position: relative;
   overflow: hidden;
-  height: 700px;
+  height: auto;
 }
 header .container .main-content {
   margin-top: 8%;
@@ -801,9 +801,7 @@ a:hover {
     max-width: 55%;
   }
   #services .d-flex .text-50 ul {
-    columns: 2;
-    -webkit-columns: 2;
-    -moz-columns: 2;
+    max-width: 70%;
   }
   #services .services {
     grid-auto-rows: 208px;
@@ -856,12 +854,16 @@ a:hover {
     max-width: 70%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
+  #services .d-flex .text-50 ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    max-height: 160px;
+    max-width: 100%;
+  }
   #logo-moscow {
     width: 160px;
-  }
-  header .container {
-    height: initial;
   }
   header .container .main-content {
     margin-top: 245px;
