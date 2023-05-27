@@ -704,16 +704,17 @@ a:hover {
     right: -15%;
   }
   .parallax__layer--img1 {
-    max-width: 64%;
-    z-index: 205;
-    top: 6%;
-    left: -9%;
+    max-width: 50%;
+    top: 30%;
+    left: -4%;
   }
   .parallax__layer--img2 {
-    max-width: 81%;
-    z-index: 204;
-    top: 16%;
-    left: 10%;
+    max-width: 50%;
+    top: 47%;
+    left: 22%;
+  }
+  .parallax__layer--img4 {
+    left: 70%;
   }
   .slider-container {
     max-width: 100%;
