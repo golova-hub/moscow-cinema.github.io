@@ -568,6 +568,9 @@ hr {
         color: $gold;
         margin-bottom: 20px;
         display: inline;
+        &:hover {
+          color: $gold-dark;
+        }
       }
       p {
         color: $grey-50;

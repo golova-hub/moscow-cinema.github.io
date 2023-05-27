@@ -558,6 +558,9 @@ hr {
   margin-bottom: 20px;
   display: inline;
 }
+.contacts .contacts-group .contacts-item a:hover {
+  color: #B98038;
+}
 .contacts .contacts-group .contacts-item p {
   color: rgba(255, 255, 255, 0.5);
   max-width: 80%;
@@ -891,6 +894,10 @@ a:hover {
     font-size: 19px;
     line-height: 22px;
   }
+  h2 {
+    font-size: 19px;
+    line-height: 22px;
+  }
   p, ul li {
     font-size: 16px;
     line-height: 22px;
@@ -901,29 +908,166 @@ a:hover {
   .parallax__group {
     width: 100%;
     right: 0;
-    height: 500px;
-    margin-top: 20px;
+    height: 400px;
+    margin-top: 50px;
   }
   .parallax__group .parallax__layer--img1 {
-    max-width: 55%;
-    z-index: 110;
-    top: 6%;
-    left: 6%;
+    max-width: 35%;
+    top: 24%;
+    left: 10%;
   }
   .parallax__group .parallax__layer--img2 {
-    max-width: 68%;
-    z-index: 109;
-    top: 16%;
-    left: 14%;
+    max-width: 38%;
+    top: 34%;
+    left: 24%;
+  }
+  .parallax__group .parallax__layer--img3 {
+    max-width: 35%;
+    top: 7%;
+    left: 51%;
+    opacity: 0.8;
   }
   .parallax__group .parallax__layer--img4 {
-    top: 19%;
+    top: 32%;
+    max-width: 26%;
+    left: 55%;
   }
   .mb-100 {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   header {
     margin-bottom: 10px;
+  }
+  header .container .main-screen-content p {
+    margin-bottom: 40px;
+  }
+  #films-slider .splide__list {
+    height: 456px;
+  }
+  #films-slider .splide__slide .films-cover-item {
+    width: 310px;
+    height: 456px;
+  }
+  #films-slider .splide__slide .films-cover-item .film-cover-wrap {
+    width: 260px;
+    height: 380px;
+  }
+  #films-slider .splide__slide.is-active.is-visible .films-cover-item .film-cover-wrap {
+    width: 310px;
+    height: 456px;
+  }
+  #films-slider .d-flex .slider-container {
+    margin-bottom: 40px;
+  }
+  #films .text-50 {
+    width: 90%;
+  }
+  #benefits .d-flex {
+    flex-direction: column;
+  }
+  #benefits .d-flex .benefit {
+    max-width: 220px;
+    min-width: 220px;
+    width: 220px;
+    border-right: 0;
+    border-bottom: 1px solid #BE9B46;
+    padding: 30px;
+  }
+  #benefits .d-flex .benefit:last-child {
+    border-bottom: 0;
+  }
+  .events h2 {
+    max-width: 78%;
+  }
+  #events-slider .splide__list {
+    height: 352px;
+  }
+  #events-slider .splide__slide .event-item {
+    width: 310px;
+    height: 352px;
+  }
+  #events-slider .splide__slide .event-item .event-img-wrap {
+    width: 310px;
+    height: 230px;
+  }
+  #events-slider .splide__slide.is-active.is-visible .event-item .event-img-wrap {
+    width: 310px;
+    height: 310px;
+  }
+  .brands h2 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .restaurant {
+    flex-wrap: wrap;
+  }
+  .restaurant .rest-photo.photo-left {
+    order: 1;
+    max-width: 48%;
+    min-width: 48%;
+    width: 48%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+  }
+  .restaurant .rest-photo.photo-right {
+    order: 2;
+    max-width: 48%;
+    min-width: 48%;
+    width: 48%;
+    margin-bottom: 30px;
+  }
+  .restaurant .rest-text {
+    order: 3;
+  }
+  #services .d-flex .text-50 h2 {
+    max-width: 100%;
+    margin-top: 30px;
+    font-size: 17px;
+  }
+  #services .d-flex .text-50 hr {
+    max-width: 100%;
+  }
+  #services .d-flex .text-50 ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    max-height: initial;
+  }
+  #services .d-flex .services {
+    grid-template-columns: 1fr;
+  }
+  .d-sm-none {
+    display: none;
+  }
+  .interior-photo {
+    height: 228px;
+    margin-bottom: 40px;
+  }
+  .pattern-bg h2 {
+    max-width: 100%;
+  }
+  .pattern-bg p {
+    max-width: 96%;
+    margin: 0 auto 60px auto;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #events-slider .splide__list {
+    height: 352px;
+  }
+  #events-slider .splide__slide .event-item {
+    width: 280px;
+    height: 352px;
+  }
+  #events-slider .splide__slide .event-item .event-img-wrap {
+    width: 280px;
+    height: 230px;
+  }
+  #events-slider .splide__slide.is-active.is-visible .event-item .event-img-wrap {
+    width: 280px;
+    height: 310px;
   }
 }
 
