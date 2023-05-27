@@ -19,8 +19,6 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  transform-style: preserve-3d;
-  perspective: 1px;
 }
 
 h1, h2 {
@@ -106,7 +104,7 @@ header .container .btn-group-main {
   height: 700px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transition: -webkit-transform 0.5s;
+  -webkit-transition: transform 0.5s;
   transition: transform 0.5s;
 }
 
@@ -683,6 +681,10 @@ a:hover {
     font-size: 20px;
     line-height: 22px;
   }
+  footer p {
+    font-size: 20px;
+    line-height: 22px;
+  }
 }
 @media screen and (max-width: 768px) {
   section {
@@ -853,6 +855,77 @@ a:hover {
   .contacts .contacts-links p {
     margin: auto 0 0 0;
     max-width: 100%;
+  }
+  #final .btn-group-main {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #logo-moscow {
+    width: 160px;
+  }
+  header .container {
+    height: initial;
+  }
+  header .container .main-content {
+    margin-top: 245px;
+  }
+  header .container .main-content .main-screen-content {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+  header .container .main-content .btn-group-main {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    flex-direction: column;
+  }
+  header .container .main-content .btn-group-main .btn {
+    margin-bottom: 10px;
+  }
+  header .container .btn-group-main a {
+    width: initial;
+    max-width: initial;
+    margin-right: 0;
+  }
+  h1 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  p, ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .p-50 {
+    padding: 15px;
+  }
+  .parallax__group {
+    width: 100%;
+    right: 0;
+    height: 500px;
+    margin-top: 20px;
+  }
+  .parallax__group .parallax__layer--img1 {
+    max-width: 55%;
+    z-index: 5;
+    top: 6%;
+    left: 6%;
+  }
+  .parallax__group .parallax__layer--img2 {
+    max-width: 68%;
+    z-index: 4;
+    top: 16%;
+    left: 14%;
+  }
+  .parallax__group .parallax__layer--img4 {
+    top: 19%;
+  }
+  .mb-100 {
+    margin-bottom: 60px;
+  }
+  header {
+    margin-bottom: 10px;
   }
 }
 

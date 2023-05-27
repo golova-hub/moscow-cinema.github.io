@@ -92,6 +92,10 @@
     font-size: 20px;
     line-height: 22px;
   }
+  footer p {
+    font-size: 20px;
+    line-height: 22px;
+  }
 }
 @media screen and (max-width: 768px) {
   section {
@@ -277,5 +281,81 @@
         max-width: 100%;
       }
     }
+  }
+  #final .btn-group-main {
+    max-width: 70%;
+  }
+}
+@media screen and (max-width: 600px) {
+  #logo-moscow {
+    width: 160px;
+  }
+  header {
+    .container {
+      height: initial;
+      .main-content {
+        margin-top: 245px;
+        .main-screen-content {
+          max-width: 100%;
+          min-width: 100%;
+          width: 100%;
+        }
+        .btn-group-main {
+          max-width: 100%;
+          min-width: 100%;
+          width: 100%;
+          flex-direction: column;
+          .btn {
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .btn-group-main a {
+        width: initial;
+        max-width: initial;
+        margin-right: 0;
+      }
+    }
+  }
+  h1 {
+    font-size: 19px;
+    line-height: 22px;
+  }
+  p, ul li {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .p-50 {
+    padding: 15px;
+  }
+  .parallax__group {
+    width: 100%;
+    right: 0;
+    height: 500px;
+    margin-top: 20px;
+    .parallax__layer--img1 {
+      max-width: 55%;
+      z-index: 5;
+      top: 6%;
+      left: 6%;
+    }
+    .parallax__layer--img2 {
+      max-width: 68%;
+      z-index: 4;
+      top: 16%;
+      left: 14%;
+    }
+    .parallax__layer--img3 {
+
+    }
+    .parallax__layer--img4 {
+      top: 19%;
+    }
+  }
+  .mb-100 {
+    margin-bottom: 60px;
+  }
+  header {
+    margin-bottom: 10px;
   }
 }
