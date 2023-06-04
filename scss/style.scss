@@ -26,6 +26,7 @@ $font-fam-hdrs: 'FuturaFuturisLightC', sans-serif;
 html, body {
   font-family: $font-fam-bodytext;
   background-color: $grey-dark;
+  font-style: normal;
 }
 body {
   overflow-x: hidden;
@@ -576,6 +577,7 @@ hr {
         color: $grey-50;
         max-width: 80%;
         margin: auto;
+        font-style: normal;
       }
     }
   }

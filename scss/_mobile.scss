@@ -35,6 +35,12 @@
       max-width: 64%;
     }
   }
+  .brands .d-flex.justify-center {
+    flex-wrap: wrap;
+    img {
+      margin: 0 35px 30px 35px;
+    }
+  }
 }
 @media screen and (max-width: 1440px) {
   .benefit {
