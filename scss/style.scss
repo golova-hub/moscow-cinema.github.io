@@ -85,6 +85,9 @@ header {
       max-width: 50%;
       p {
         margin-bottom: 60px;
+        &.mb-small {
+          margin-bottom: 20px;
+        }
       }
     }
     .btn-group-main {
@@ -344,6 +347,7 @@ hr {
     margin-bottom: 0;
   }
 }
+
 .justify-center {
   justify-content: center;
 }

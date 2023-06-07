@@ -82,6 +82,9 @@ header .container .main-screen-content {
 header .container .main-screen-content p {
   margin-bottom: 60px;
 }
+header .container .main-screen-content p.mb-small {
+  margin-bottom: 20px;
+}
 header .container .btn-group-main {
   max-width: 50%;
 }
