@@ -338,6 +338,10 @@ hr {
   justify-content: center;
 }
 
+.justify-end {
+  justify-content: end;
+}
+
 .mb-100 {
   margin-bottom: 100px;
 }
