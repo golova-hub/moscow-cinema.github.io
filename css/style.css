@@ -74,19 +74,44 @@ header .container {
   height: auto;
 }
 header .container .main-content {
-  margin-top: 8%;
+  margin-top: 4%;
 }
 header .container .main-screen-content {
   max-width: 50%;
 }
 header .container .main-screen-content p {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  line-height: 26px;
 }
 header .container .main-screen-content p.mb-small {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+}
+header .container .main-screen-content h2 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 8px;
 }
 header .container .btn-group-main {
   max-width: 50%;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  font-family: "FuturaFuturisLightC", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #BE9B46;
+}
+
+.subttl {
+  font-family: "FuturaFuturisLightC", sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 
 .parallax {
@@ -712,7 +737,7 @@ a:hover {
     max-width: 50%;
   }
   header .container .main-content {
-    margin-top: 25%;
+    margin-top: 6%;
   }
   header .container .btn-group-main {
     max-width: 100%;
@@ -913,6 +938,10 @@ a:hover {
     font-size: 19px;
     line-height: 22px;
   }
+  h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
   p, ul li {
     font-size: 16px;
     line-height: 22px;
@@ -924,7 +953,7 @@ a:hover {
     width: 100%;
     right: 0;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 88px;
   }
   .parallax__group .parallax__layer--img1 {
     max-width: 35%;

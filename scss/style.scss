@@ -79,21 +79,44 @@ header {
     overflow: hidden;
     height: auto;
     .main-content {
-      margin-top: 8%;
+      margin-top: 4%;
     }
     .main-screen-content {
       max-width: 50%;
       p {
-        margin-bottom: 60px;
+        margin-bottom: 40px;
+        font-size: 18px;
+        line-height: 26px;
         &.mb-small {
-          margin-bottom: 20px;
+          margin-bottom: 8px;
         }
+      }
+      h2 {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 8px;
       }
     }
     .btn-group-main {
       max-width: 50%;
     }
   }
+}
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  font-family: $font-fam-hdrs;
+  font-style: normal;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: $gold;
+}
+.subttl {
+  font-family: $font-fam-hdrs;
+  color: $grey-50;
+  font-size: 20px;
+  margin-bottom: 40px;
 }
 .parallax {
   height: 100vh;

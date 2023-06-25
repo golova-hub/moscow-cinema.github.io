@@ -118,7 +118,7 @@
   header {
     .container {
       .main-content {
-        margin-top: 25%;
+        margin-top: 6%;
       }
       .btn-group-main {
         max-width: 100%;
@@ -340,6 +340,10 @@
     font-size: 19px;
     line-height: 22px;
   }
+  h3 {
+    font-size: 18px;
+    line-height: 20px;
+  }
   p, ul li {
     font-size: 16px;
     line-height: 22px;
@@ -351,7 +355,7 @@
     width: 100%;
     right: 0;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 88px;
 
     .parallax__layer--img1 {
       max-width: 35%;
