@@ -112,6 +112,8 @@ h3 {
   color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .parallax {
@@ -942,7 +944,7 @@ a:hover {
     font-size: 18px;
     line-height: 20px;
   }
-  p, ul li {
+  p, ul li, .subttl {
     font-size: 16px;
     line-height: 22px;
   }
@@ -1152,7 +1154,7 @@ a:hover {
     height: 310px;
   }
   .contacts .contacts-group .contacts-item p {
-    min-width: 80%;
+    min-width: 84%;
   }
 }
 

@@ -344,7 +344,7 @@
     font-size: 18px;
     line-height: 20px;
   }
-  p, ul li {
+  p, ul li, .subttl {
     font-size: 16px;
     line-height: 22px;
   }
@@ -596,6 +596,6 @@
     }
   }
   .contacts .contacts-group .contacts-item p {
-    min-width: 80%;
+    min-width: 84%;
   }
 }
